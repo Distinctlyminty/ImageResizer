@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Sailr.ImageResizer</PackageId>
+    <PackageVersion>1.0.0.1</PackageVersion>
+    <Authors>James Millar</Authors>
+    <Copyright>James Millar</Copyright>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/Distinctlyminty/ImageResizer/blob/main/LICENSE</PackageLicenseUrl>
+    <Owners>James Millar</Owners>
+    <PackageProjectUrl>https://github.com/Distinctlyminty/ImageResizer</PackageProjectUrl>
+    <Summary>A simple lightweight library for resizing images</Summary>
+    <Title>Image Resizer</Title>
+    <Description>A simple library for resizing images</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="System.Drawing.Common" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+</Project>
